@@ -4,12 +4,14 @@ int xDirection  = 1;
 
 void setup() 
 {
-  background(100,100,100);
+  //background(100,100,100);
   fullScreen();
 }
 
 void draw()
 {
+  
+  
   fill (random(255),random(255),random(255));
   ellipse(x,y,300,300); 
   x = x + 5; 
@@ -18,11 +20,11 @@ void draw()
   
   if ( x >= width ) 
   {
-    xDirection = -1; 
+    xDirection = -14; 
     
   }
 
-  x = x + (xDirection * 20);
+  x = x + (xDirection * 5);
 
 
 if (x <= 0)
@@ -31,6 +33,6 @@ if (x <= 0)
 }
 if (y > width)
 {
-  y*=-1; 
+  y*=-3; 
 }
 }
