@@ -5,7 +5,7 @@ int shapeMode = 1;
 
 void setup() 
 {
-  //background(100,100,100);
+  background(200,200,300);
   fullScreen();
 }
 
