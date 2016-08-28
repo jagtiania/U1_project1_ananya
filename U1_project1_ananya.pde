@@ -14,7 +14,7 @@ void draw()
   
   
   fill (random(255),random(255),random(255));
-  rect(x,y,300,300); 
+  ellipse(x,y,300,300); 
   {
   if (shapeMode ==1)
   {
