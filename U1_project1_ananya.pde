@@ -15,6 +15,7 @@ void draw()
   
   fill (random(255),random(255),random(255));
   ellipse(x,y,300,300); 
+  scale(100, 100.110);
   {
   if (shapeMode ==1)
   {
